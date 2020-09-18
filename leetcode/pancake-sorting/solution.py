@@ -1,6 +1,5 @@
 class Solution:
     def pancakeSort(self, arr: List[int]) -> List[int]:
-        if len(arr) == 0: return []
         operations = []
         highest_num_id = len(arr) - 1
         while highest_num_id > 0:
